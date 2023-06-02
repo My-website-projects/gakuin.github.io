@@ -22,3 +22,9 @@
 .vision p{
     padding: 30px 0;
 }
+@media screen and (max-width: 375px){
+    .mision{
+        margin-top: 20px;
+        height: auto;
+    }
+}
