@@ -10,11 +10,17 @@
     height: 230px;
     padding: 20px;
     border: 3px solid;
-    border-color: #4c3d3d;
+    border-color: #A25742;
     border-radius: 10px;
+    background-color: #fff;
 }
-.vision i,
-.mision i{
+.vision .vi-eye{
+    font-size: 30px;
+    color: #A25742;
+    opacity: 20%;
+}
+.vision .d-flex i,
+.mision .d-flex i{
     font-size: 25px;
     padding: 2px;
     padding-right: 5px;
@@ -22,9 +28,111 @@
 .vision p{
     padding: 30px 0;
 }
+.Directors-Messages p{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.frame-1{
+    width: 270px;
+    height: 300px;
+    background-color: white;
+    border: 10px solid #A25742;
+    float: right;
+}
+.anura{
+    width: 380px;
+    padding: 10px;
+    box-shadow: 3px 5px 5px #b9b9b9;
+    background-color: #fff;
+    position: relative;
+    right: 200px;
+    top: 50px;
+}
+.anura h2{
+    padding: 30px 10px;
+    font-weight: bold;
+}
+.anura img{
+    width: 150px;
+
+}
+.frame-2{
+    width: 270px;
+    height: 300px;
+    background-color: white;
+    border: 10px solid #A25742;
+    float: left;
+}
+.nakajim{
+    width: 360px;
+    padding: 10px;
+    box-shadow: 3px 5px 5px #b9b9b9;
+    background-color: #fff;
+    position: relative;
+    right: -50px;
+    top: 50px;
+}
+.nakajim h2{
+    padding: 30px 20px;
+    font-weight: bold;
+}
+.nakajim img{
+    width: 150px;
+
+}
 @media screen and (max-width: 375px){
     .mision{
         margin-top: 20px;
         height: auto;
     }
+    .frame-1{
+        width: 250px;
+        height: 270px;
+        background-color: white;
+        border: 10px solid #A25742;
+        float: right;
+    }
+    .anura{
+        width: 300px;
+        padding: 10px;
+        box-shadow: 3px 5px 5px #b9b9b9;
+        background-color: #fff;
+        position: relative;
+        right: 90px;
+        top: 50px;
+    }
+    .anura h2{
+        padding: 30px 10px;
+        font-weight: bold;
+    }
+    .anura img{
+        width: 120px;
+    
+    }
+    .frame-2{
+        width: 250px;
+        height: 250px;
+        background-color: white;
+        border: 10px solid #A25742;
+        float: left;
+    }
+    .nakajim{
+        width: 300px;
+        padding: 10px;
+        box-shadow: 3px 5px 5px #b9b9b9;
+        background-color: #fff;
+        position: relative;
+        right: -40px;
+        top: 50px;
+    }
+    .nakajim h2{
+        padding: 30px 20px;
+        font-weight: bold;
+    }
+    .nakajim img{
+        width: 120px;
+    
+    }
+
 }
