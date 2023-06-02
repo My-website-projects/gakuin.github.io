@@ -12,3 +12,7 @@
     line-height: normal;
     font-size: 22px;
   }
+  .footer a{
+    color: #ffffff;
+    text-decoration: none;
+  }
