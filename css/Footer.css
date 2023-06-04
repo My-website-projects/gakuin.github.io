@@ -17,7 +17,7 @@
     text-decoration: none;
   }
 
-  @media screen and (max-width: 375px){
+  @media screen and (max-width: 600px){
     footer .logo img {
       width: 60px;
       height: 60px;

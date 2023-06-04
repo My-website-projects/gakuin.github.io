@@ -81,7 +81,7 @@
     width: 150px;
 
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 600px){
     .mision{
         margin-top: 20px;
         height: auto;
