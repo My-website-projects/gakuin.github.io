@@ -7,17 +7,20 @@
     <title>R & S INTERNATIONAL | Home</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
-    <!-- Font-Awesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/Navbar.css">
     <link rel="stylesheet" href="css/Footer.css">
+
+    <script src="js/script.js"></script>
 </head>
 
 <body>
+    <div id="content">
     <!-- Carousel -->
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-        
+    <div class="bg-image">
+
         <div class="container-fluid">
             <div class="line"></div>
         </div>
@@ -70,7 +73,7 @@
                 <div class="container">
                     <div class="logo">
                         <img src="Images/R & S logo.png" alt="">
-                        <a class="navbar-brand" href="#">R & S <br> INTERNATIONAL</a>
+                        <a class="navbar-brand" href="index.html">R & S <br> INTERNATIONAL</a>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,7 +88,7 @@
                                 <a class="nav-link" href="about.html">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact .html">Contact Us</a>
+                                <a class="nav-link" href="contact.html">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -93,78 +96,94 @@
             </nav>
         </div>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="Images/1.png" class="d-block w-100" alt="Image 1">
-            </div>
-            <div class="carousel-item">
-                <img src="Images/4.jpg" class="d-block w-100" alt="Image 2">
-            </div>
-            <div class="carousel-item">
-                <img src="Images/3.png" class="d-block w-100" alt="Image 3">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+
+        <img src="Images/1.png" alt="">
     </div>
-    
-      
-      <!-- Footer -->
-      <footer class="footer bg-dark text-light">
+    <section class="contact-1">
         <div class="container">
-          <div class="row pt-4">
-            <div class="col-md-6">
-                <div class="logo">
-                    <img src="Images/R & S logo.png" alt="">
-                    <a class="navbar-brand" href="#">R & S <br> INTERNATIONAL <br>GAKUIN (PVT) LTD</a>
+            <div class="row">
+                <div class="col-md-4 align-items-center">
+                    <div class="card">
+                        <i class="fa-solid fa-phone"></i>
+                        <h4>Mobile</h4>
+                        <p>Tel/Fax: ++94 1129 17 587</p>
+                        <p>Mobile: ++94 7166 76 973</p>
+                    </div>
+                </div>
+                <div class="col-md-4 align-items-center">
+                    <div class="card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Address</h4>
+                        <p>No : 76 B, Kandy Rd,<br>
+                            Dalugama, Kelaniya,<br>
+                            Sri Lanka.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 align-items-center">
+                    <div class="card">
+                        <i class="fa-solid fa-envelope fa-beat"></i>
+                        <h4>Email</h4>
+                        <p>anura927@gmail.com</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3">
-              <h4>Quick Links</h4>
-              <ul class="list-unstyled">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact .html">Contact</a></li>
-              </ul>
-            </div>
-            <div class="col-md-3">
-              <h4>Contact Us</h4>
-              <ul class="list-unstyled">
-                <li class="pb-2"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;<a href="">No : 76 B,  Kandy Rd, 
-                    <br>  Dalugama, Kelaniya, 
-                     <br> Sri Lanka.</a></li>
-                <li class="pb-2"><i class="fa-regular fa-envelope"></i>&nbsp;&nbsp;<a href="">anura927@gmail.com</a></li>
-                <li class="pb-2"><i class="fa-solid fa-phone-volume"></i>&nbsp;&nbsp;<a href="">Tel/Fax: ++94 1129 17 587 <br>
-                    Mobile: ++94 7166 76 973</a></li>
-              </ul>
-            </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <p>&copy; 2023 Your Company. All rights reserved.</p>
-            </div>
-          </div>
         </div>
-      </footer>
-    
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light">
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-md-6">
+                    <div class="logo">
+                        <img src="Images/R & S logo.png" alt="">
+                        <a class="navbar-brand" href="#">R & S <br> INTERNATIONAL <br>GAKUIN (PVT) LTD</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contact Us</h4>
+                    <ul class="list-unstyled">
+                        <li class="pb-2"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;<a href="">No : 76 B, Kandy
+                                Rd,
+                                <br> Dalugama, Kelaniya,
+                                <br> Sri Lanka.</a></li>
+                        <li class="pb-2"><i class="fa-regular fa-envelope"></i>&nbsp;&nbsp;<a
+                                href="">anura927@gmail.com</a></li>
+                        <li class="pb-2"><i class="fa-solid fa-phone-volume"></i>&nbsp;&nbsp;<a href="">Tel/Fax: ++94
+                                1129 17 587 <br>
+                                Mobile: ++94 7166 76 973</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2023 Your Company. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script>
         const navE1 = document.querySelector('.main-navbar .navbar');
 
         window.addEventListener('scroll', () => {
-            if (window.scrollY >= 56){
+            if (window.scrollY >= 56) {
                 navE1.classList.add('navbar-scrolled');
-            } else if(window.scrollY < 56){
+            } else if (window.scrollY < 56) {
                 navE1.classList.remove('navbar-scrolled');
             }
         })
     </script>
+</div>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

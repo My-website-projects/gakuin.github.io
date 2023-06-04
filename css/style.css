@@ -81,6 +81,25 @@
     width: 150px;
 
 }
+.contact-1{
+    height: auto;
+}
+.contact-1 .card{
+    width: 300px;
+    height: 350px;
+    margin: 50px 10px;
+    background-color: #fff;
+    border: 10px solid #A25742;
+    border-radius: 0%;
+    text-align: center;
+}
+.contact-1 .card h4{
+    margin-top: 50px;
+}
+.contact-1 .card i{
+    font-size: 45px;
+    margin-top: 40px;
+}
 @media screen and (max-width: 600px){
     .mision{
         margin-top: 20px;
