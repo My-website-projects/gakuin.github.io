@@ -17,15 +17,24 @@
     <script>
         window.onload = function() {
             var preloader = document.getElementById('preloader');
-            preloader.style.display = 'none';
+            
+            // Set a delay of 3 seconds (3000 milliseconds)
+            var delayInMilliseconds = 3000;
+          
+            setTimeout(function() {
+              preloader.style.display = 'none';
+            }, delayInMilliseconds);
           };
+          
           
     </script>
 </head>
 
 <body>
     <div id="preloader">
-        <div id="loader"></div>
+        <div id="logo">
+          <img src="Images/R & S logo.png" alt="Logo">
+        </div>
       </div>
     
     <!-- Carousel -->
