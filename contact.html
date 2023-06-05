@@ -14,9 +14,19 @@
     <link rel="stylesheet" href="css/Footer.css">
 
     <script src="js/script.js"></script>
+    <script>
+        window.onload = function() {
+            var preloader = document.getElementById('preloader');
+            preloader.style.display = 'none';
+          };
+          
+    </script>
 </head>
 
 <body>
+    <div id="preloader">
+        <div id="loader"></div>
+      </div>
     <div id="content">
     <!-- Carousel -->
     <div class="bg-image">
