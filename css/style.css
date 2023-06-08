@@ -137,6 +137,24 @@
     font-weight: 400;
 }
 
+  .h-2{
+    background-color: #A25742;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+  }
+  .h-2 .row{
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .h-2 .row i{
+    font-size: 55px;
+    padding: 10px;
+  }
+  .h-2 p{
+    font-weight: 400;
+    padding: 10px;
+  }
 @media screen and (max-width: 600px){
     .mision{
         margin-top: 20px;
